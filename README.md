@@ -31,7 +31,8 @@ of things. I was just concentrating the basic workflow (CRUD functionality). Thu
 ## To Run project
 Go to project folder and run 
 - `pipenv shell`
-- `python manage.py runserver 9999`
+- `python manage.py migrate`
+- `python manage.py runserver`
 
 ## Test project
 Go to project folder and run `pytest`
